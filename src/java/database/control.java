@@ -23,7 +23,6 @@ public class control {
             this.q = "insert into teams(name,descr,technology,pass)values('" + t.getName() + "','" + t.getDesc() + "','" + t.getTechnology() + "','" + t.getPassword() + "')";
             st.executeUpdate(q);
             System.out.println("succesful");
-
         } catch (Exception ex) {
             System.out.println(ex.getMessage());
         }
